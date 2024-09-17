@@ -1,0 +1,9 @@
+:root{
+    --cor-defundo: #436428;
+    --cor-texto: #000;
+
+}
+body{
+    background-color: var(--cor-defundo);
+    
+}
