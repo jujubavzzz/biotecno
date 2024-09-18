@@ -7,3 +7,14 @@ body{
     background-color: var(--cor-defundo);
     
 }
+.card--descricaos{
+    background-color: #D9D9D9;
+    border-radius:40px;
+    display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	width: 65vmin;
+	height: 50vmin;
+	margin: 2rem auto;
+    border: 8px solid;
+    }
