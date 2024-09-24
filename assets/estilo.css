@@ -20,6 +20,6 @@ body{
     }
     .container-titulo{
         color: aliceblue;
-        justify-content: center;
+        align-items: center;
 
     }
