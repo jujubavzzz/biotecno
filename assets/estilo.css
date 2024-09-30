@@ -19,11 +19,15 @@ body{
 	margin: 2rem auto;
     border: 5px solid;
     }
+    .cartao:hover{
+        background-color: #A0D676;
+
+    }
 .cartao{
     font-size:16px ;
     font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-}
+  font-optical-sizing: auto;}
+
 
 .container-titulo{
         color: aliceblue;
