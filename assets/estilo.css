@@ -19,15 +19,19 @@ body{
 	margin: 2rem auto;
     border: 5px solid;
     }
-    .cartao:hover{
+    .cartao:hover .cartao--conteudo{
         background-color: #58a545;
         transform: rotateY(180deg);
 
     }
+    .cartao--conteudo{
+        transform-style: preserve-3d;
+        transition: transform 300ms ease-in-out;
+    }
 .cartao{
     font-size:20px ;
     font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
+    font-optical-sizing: auto;
 }
 
 
