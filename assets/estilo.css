@@ -28,6 +28,13 @@ body{
         transform-style: preserve-3d;
         transition: transform 300ms ease-in-out;
     }
+    .cartao--pergunta .cartao--resposta{
+        backface-visibility: hidden;
+    
+    }
+    .cartao--resposta{
+        transform: rotateY('160deg');
+    }
 .cartao{
     font-size:20px ;
     font-family: "Inter", sans-serif;
