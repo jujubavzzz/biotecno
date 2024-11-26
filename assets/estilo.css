@@ -28,7 +28,10 @@ body{
     transition: transform 300ms ease-in-out;
     }
     .cartao.activite .cartao--conteudo{
-        backface-visibility: hidden;
+       background-color: #A0D676;
+       transform: rotateY(180deg);
+    
+    .cartao--pergunta
     
     }
   
