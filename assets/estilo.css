@@ -27,6 +27,7 @@ body{
     transform-style: preserve-3d;
     transition: transform 300ms ease-in-out;
     }
+    
     .cartao.activite .cartao--conteudo{
        background-color: #A0D676;
        transform: rotateY('180deg'); }
