@@ -29,9 +29,21 @@ body{
     }
     .cartao.activite .cartao--conteudo{
        background-color: #A0D676;
-       transform: rotateY(180deg);
+       transform: rotateY('180deg'); }
+
+       
     
-    .cartao--pergunta
-    
+    .cartao--pergunta, .cartao--resposta{
+        backface-visibility: hidden;
     }
+    .cartao--resposta{
+        transform: rotateY('180deg');
+    }
+
+    .cartao p{
+        font-size: 27px;
+        margin-top: 1rem;
+        padding: 2rem;
+    } 
+    
   
