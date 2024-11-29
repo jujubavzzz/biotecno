@@ -22,7 +22,7 @@ body{
     text-align:center;
     }
 
-.cartao--conteudo{
+    .cartao--conteudo {
     background-color:aliceblue;
     transform-style:preserve-3d;
     transition:transform 300ms ease-in-out;
@@ -48,8 +48,8 @@ body{
     } 
     
     .rodape{
-        background-color: aliceblue;
-        color:  #A0D676;
+        background-color:  #A0D676;
+        color:  #000;
         width: 100%;
         height: 2rem;
         position: fixed;
