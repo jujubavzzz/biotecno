@@ -9,25 +9,25 @@ body{
     
 }
 #conteudo{
-    display: flex;
+    display:flex;
     flex-wrap:wrap ;
-    justify-content: space-between;
+    justify-content:space-between;
     padding: 4rem;
     gap: 3rem;
 }
 .cartao{
-    margin: 1rem 1rem;
-    flex-grow: 1;
-    flex-basis: calc(33% - 6rem);
-    text-align: center;
+    margin:1rem 1rem;
+    flex-grow:1;
+    flex-basis:calc(33% - 6rem);
+    text-align:center;
     }
 
 .cartao--conteudo{
-    background-color: aliceblue;
-    transform-style: preserve-3d;
-    transition: transform 300ms ease-in-out;
+    background-color:aliceblue;
+    transform-style:preserve-3d;
+    transition:transform 300ms ease-in-out;
     }
-    
+
     .cartao.activite .cartao--conteudo{
        background-color: #A0D676;
        transform: rotateY('180deg'); }
@@ -46,5 +46,17 @@ body{
         margin-top: 1rem;
         padding: 2rem;
     } 
+    
+    .rodape{
+        background-color: aliceblue;
+        color: #000;
+        width: 100%;
+        height: 2rem;
+        position: fixed;
+        bottom: 0;
+        text-align: center;
+        align-content: center;
+        font-size: 16px;
+    }
     
   
