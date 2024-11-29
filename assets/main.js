@@ -4,7 +4,7 @@ function criacartao (pergunta, resposta) {
     cartao. className = ' cartao '
 
     cartao. innerHTML =
-     <div class= "cartao- -conteudo">
+     <div class= "cartao--conteudo">
     <div class="cartao--pergunta"><p>$(pergunta)</p> </div>
     <div class="cartao--resposta"><p>$(resposta)</p> </div>
     </div>
@@ -17,5 +17,6 @@ function criacartao (pergunta, resposta) {
       cartao.classList. toggle('active', respostaEstaVisivel)}
 
     cartao.addEventListener('click', viracartao) 
+    
     conteudo. appendChild (cartao)
   }
