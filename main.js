@@ -1,9 +1,9 @@
-function criacartao (pergunta, resposta) {
-    let conteudo = document.getElementById (' conteudo')
+function criaCartao (pergunta, resposta) {
+    let conteudo = document.getElementById ('conteudo')
     let cartao = document. createElement ('article')
     cartao. className = ' cartao '
 
-    cartao. innerHTML =
+    cartao.innerHTML = ` código `
      <div class= "cartao--conteudo">
     <div class="cartao--pergunta"><p>$(pergunta)</p> </div>
     <div class="cartao--resposta"><p>$(resposta)</p> </div>
@@ -16,7 +16,7 @@ function criacartao (pergunta, resposta) {
       respostaEstaVisivel =! respostaEstaVisivel
       cartao.classList. toggle('active', respostaEstaVisivel)}
 
-    cartao.addEventListener('click', viracartao) 
+    cartao.addEventListener('click', Viracartao) 
     
     conteudo. appendChild (cartao)
   }
