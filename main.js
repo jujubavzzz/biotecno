@@ -13,10 +13,10 @@ function criaCartao (pergunta, resposta) {
     let respostaEstaVisivel = false
 
     function viraCartao () {
-      respostaEstaVisivel =! respostaEstaVisivel
-      cartao.classList. toggle('active', respostaEstaVisivel)}
+      respostaEstaVisivel =!respostaEstaVisivel
+      cartao.classList. toggle('active',respostaEstaVisivel)}
 
-    cartao.addEventListener('click', Viracartao) 
+    cartao.addEventListener('click',Viracartao) 
     
     conteudo. appendChild (cartao)
   }
