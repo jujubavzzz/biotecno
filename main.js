@@ -5,8 +5,8 @@ function criaCartao (pergunta, resposta) {
 
     cartao.innerHTML = ` código `
     <div class= "cartao--conteudo">
-    <div class="cartao--pergunta"><p>$(pergunta)</p> </div>
-    <div class="cartao--resposta"><p>$(resposta)</p> </div>
+    <div class= "cartao--pergunta"><p>$(pergunta)</p> </div>
+    <div class= "cartao--resposta"><p>$(resposta)</p> </div>
     </div>
     console. log (cartao)
 
